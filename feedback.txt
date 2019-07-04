@@ -1,0 +1,12 @@
+//Uwagi od trenera:
+// unikać hardcodowania zmiennych -> rectangle, box speed itp
+// Settings może być singletonem każdy wzorzec jest dla ludzi tylko trzeba sobie zdawać sprawe z minusów
+// interfejsy robić tylko wtedy jak chcę mieć różne implementacje albo wiem że implementacja moze sie zmieniać
+    // np sposób drukowania worlda
+// wszedzie gdzie override dajesz to do inot suported exception
+// nie bać się tak bardzo castowania obiektów
+// rectangle mógłby być predefiniowany i skorzystać np z enuma
+// robienie new coords wszędzie źle wygląda i naraża na błędy. najlepiej zastosować obiekt immutable
+
+// dependency injection biblioteka!
+// nazwamediator
